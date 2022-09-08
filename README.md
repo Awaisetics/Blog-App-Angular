@@ -17,3 +17,12 @@ All Blogs
 View Complete Blog
 
 ![Web capture_8-9-2022_9566_localhost](https://user-images.githubusercontent.com/87242017/189037692-37a8c9a3-1469-4f06-be76-a5e6ca218cea.jpeg)
+
+My Blogs
+
+<img width="950" alt="myblogs" src="https://user-images.githubusercontent.com/87242017/189038431-b19698a3-82de-411e-9a51-36c5a47994ab.png">
+
+Create New Blog
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/87242017/189038514-856de131-5cf6-43e7-b28a-1296efb34669.png">
+
