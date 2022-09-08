@@ -13,27 +13,27 @@ export class BlogService {
   }
 
   getBlog(blogID : any){
-    return this.httpClient.get(`http://localhost:3000/blog/${blogID}`);
+    return this.httpClient.get(`http://localhost:3000/blogs/${blogID}`);
   }
 
   getMyBlogs(){
-    return this.httpClient.get('http://localhost:3000/blogs/myblogs');
+    return this.httpClient.get('http://localhost:3000/blogs/myBlogs');
   }
 
   createBlog(data : any){
-    return this.httpClient.post('http://localhost:3000/blog/create',data);
+    return this.httpClient.post('http://localhost:3000/blogs/create',data);
   }
 
   deleteBlog(id : any){
-    return this.httpClient.delete(`http://localhost:3000/blog/destroy/${id}`);
+    return this.httpClient.delete(`http://localhost:3000/blogs/destroy/${id}`);
   }
 
   updateBlog(data : any){
-    return this.httpClient.put('http://localhost:3000/blog/update', data);
+    return this.httpClient.put('http://localhost:3000/blogs/update', data);
   }
 
   addComment(data : any){
-    return this.httpClient.put('http://localhost:3000/blog/comment/add', data);
+    return this.httpClient.put('http://localhost:3000/blogs/comment/add', data);
   }
   
 }
