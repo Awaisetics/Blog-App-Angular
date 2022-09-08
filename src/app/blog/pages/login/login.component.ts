@@ -33,15 +33,6 @@ export class LoginComponent implements OnInit {
     });
   }
 
-  @Input() isLoginForm: boolean = false;
-  @Output() onToggleForm = new EventEmitter<boolean>();
-
-  toggleForm(e : any){
-    e.preventDefault();
-    this.isLoginForm = false;
-    this.onToggleForm.emit(this.isLoginForm);
-  }
-
   login(){
     this.submitted = true;
     this.loading = true;
@@ -64,8 +55,6 @@ export class LoginComponent implements OnInit {
         },
       );
     } else {
-      // this.loginErr = true;
-      // this.errorMsg = 'Please Enter Valid Inputs';
       this.loading = false;
     }
   }

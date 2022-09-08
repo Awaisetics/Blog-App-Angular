@@ -11,7 +11,6 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ApiInterceptor } from './blog/interceptors/api.interceptor';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavbarComponent } from './blog/pages/navbar/navbar.component';
-import { MenuComponent } from './blog/pages/menu/menu.component';
 import { CreateBlogComponent } from './blog/pages/create-blog/create-blog.component';
 import { MyBlogsComponent } from './blog/pages/my-blogs/my-blogs.component';
 import { ViewBlogComponent } from './blog/pages/view-blog/view-blog.component';
@@ -26,7 +25,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     DashboardComponent,
     NavbarComponent,
-    MenuComponent,
     CreateBlogComponent,
     MyBlogsComponent,
     ViewBlogComponent

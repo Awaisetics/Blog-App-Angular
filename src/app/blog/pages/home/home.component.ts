@@ -18,8 +18,4 @@ export class HomeComponent implements OnInit {
       this.router.navigate(['/dashboard']);
     }
   }
-
-  toggleForm(value : boolean){
-    this.isLoginForm =  value;
-  }
 }

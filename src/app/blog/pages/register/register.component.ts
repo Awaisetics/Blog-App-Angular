@@ -35,15 +35,6 @@ export class RegisterComponent implements OnInit {
     this.fg.valueChanges.subscribe((data : any) => console.log(data));
   }
 
-  @Input() isLoginForm: boolean = false;
-  @Output() onToggleForm = new EventEmitter<boolean>();
-
-  toggleForm(e : any) {
-    e.preventDefault();
-    this.isLoginForm = true;
-    this.onToggleForm.emit(this.isLoginForm);
-  }
-
   register(){
     this.registerErr = false;
     this.loading = true;
