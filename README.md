@@ -28,3 +28,6 @@ Create New Blog
 
 ![Web capture_8-9-2022_102956_localhost](https://user-images.githubusercontent.com/87242017/189041709-ee47863f-48cc-4641-ace5-e63047f7d707.jpeg)
 
+Edit Blog
+
+![Web capture_8-9-2022_10320_localhost](https://user-images.githubusercontent.com/87242017/189042045-e8ecb05b-f28a-4388-abb2-37a63c5b55b3.jpeg)
