@@ -12,17 +12,19 @@ Register page
 
 All Blogs
 
-<img width="949" alt="allBlogs" src="https://user-images.githubusercontent.com/87242017/189037538-49c85008-0e32-4535-abc3-812e5fb342db.png">
+![Web capture_8-9-2022_102917_localhost](https://user-images.githubusercontent.com/87242017/189041642-756d6c86-16ff-4d18-a3a6-6545e6b1569f.jpeg)
 
 View Complete Blog
 
-![Web capture_8-9-2022_9566_localhost](https://user-images.githubusercontent.com/87242017/189037692-37a8c9a3-1469-4f06-be76-a5e6ca218cea.jpeg)
+![Web capture_8-9-2022_102757_localhost](https://user-images.githubusercontent.com/87242017/189041518-0e83bc61-4ff7-4c3d-954a-a0220d93d2f9.jpeg)
+
 
 My Blogs
 
 <img width="950" alt="myblogs" src="https://user-images.githubusercontent.com/87242017/189038431-b19698a3-82de-411e-9a51-36c5a47994ab.png">
 
+
 Create New Blog
 
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/87242017/189038514-856de131-5cf6-43e7-b28a-1296efb34669.png">
+![Web capture_8-9-2022_102956_localhost](https://user-images.githubusercontent.com/87242017/189041709-ee47863f-48cc-4641-ace5-e63047f7d707.jpeg)
 
