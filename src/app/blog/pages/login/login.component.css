@@ -1,0 +1,4 @@
+input.error:focus {
+    border-color: red;
+    box-shadow: 0 0 0 .25rem rgba(179, 26, 26, 0.215);
+}

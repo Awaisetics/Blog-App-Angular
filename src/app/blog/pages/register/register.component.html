@@ -1,0 +1,40 @@
+<section class="container shadow px-5 pb-5 pt-3 bg-light col-8 col-md-5 col-sm-6 col-lg-4 rounded mt-5">
+    <h2 class="text-center text-orange border-bottom py-3 mb-3">REGISTER</h2>
+    <div *ngIf="registerErr" class="alert alert-danger" role="alert">
+        {{errorMsg}}
+    </div>
+    <div class="row">
+        <form [formGroup]="fg" (submit)="register()">
+            <div class="mb-3">
+                <label for="name" class="col-form-label">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" [ngClass]="{'error' : fg.get('name').errors}" class="form-control" id="name" autocomplete="off" formControlName="name">
+                    <small class="text-danger" *ngIf="fg.get('name').errors">Please Enter at least 3 charecters</small>
+                </div>
+            </div>
+            <div class=" mb-3">
+                <label for="email" class="col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" [ngClass]="{'error' : fg.get('email').errors}" class="form-control" id="email" autocomplete="off" formControlName="email">
+                    <small class="text-danger" *ngIf="fg.get('email').errors">Please Enter a Valid Email</small>
+                </div>
+            </div>
+            <div class=" mb-4">
+                <label for="password" class="col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" [ngClass]="{'error' : fg.get('password').errors}" class="form-control" id="password" formControlName="password">
+                    <small class="text-danger" *ngIf="fg.get('password').errors">Please Enter at least 3 charecters</small>
+                </div>
+            </div>
+            <button class="btn bg-orange text-light">
+                <span *ngIf="!loading">Register</span>
+                <div class="spinner-border text-light" *ngIf="loading" role="status">
+                </div>
+            </button>
+        </form>
+    </div>
+</section>
+
+
+
+

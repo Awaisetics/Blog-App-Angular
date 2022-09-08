@@ -1,0 +1,11 @@
+small {
+    font-size: 0.77rem;
+}
+
+#my-card > p {
+    height: 6rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}

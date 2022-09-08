@@ -1,0 +1,20 @@
+<section class="container mt-3">
+    <div class="row my-3">
+        <div class="col-sm-12 col-md-6 col-lg-6 my-4" *ngFor="let blog of blogs">
+            <div class="card bg-light px-0" >
+                <div class="card-header d-flex align-items-center justify-content-between">
+                    <span title="Blog Title" class="h4 mb-0">{{blog.title}}</span>
+                    <div>
+                        <i class="bi bi-trash mx-3" title="Delete Blog" (click)="deleteBlog(blog._id)"></i>
+                        <i class="bi bi-pencil p-2" title="Edit Blog" (click)="editBlog(blog._id)"></i>
+                    </div>
+                </div> 
+                <div class="card-body">
+                    <p [innerHTML]="blog.content"></p>
+                    <small class=" py-2 text-secondary">Comments {{blog?.comments?.length}}</small>
+                    <a style="cursor: pointer" class="float-end text-orange small" (click)="viewBlog(blog._id)">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

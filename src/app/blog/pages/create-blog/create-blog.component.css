@@ -1,0 +1,9 @@
+::ng-deep tag {
+    padding: 0px 9px 0 12px !important;
+    background: #ff6219 !important;
+    color: white !important;
+}
+
+::ng-deep delete-icon {
+    color: #f8f9fa !important;
+}

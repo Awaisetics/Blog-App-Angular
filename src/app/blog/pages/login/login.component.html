@@ -1,0 +1,32 @@
+<section class="container shadow px-5 pb-5 pt-3 bg-light col-8 col-md-5 col-sm-6 col-lg-4 rounded mt-5">
+    <h2 class="text-center text-orange border-bottom py-3 mb-3">LOGIN</h2>
+    <div *ngIf="loginErr" class="alert alert-danger" role="alert">
+        {{errorMsg}}
+    </div>
+    <div class="row">
+        <form [formGroup]="fg" (submit)="login()">
+            <div class="row mb-4">
+                <label for="email" class="col-sm-2 col-form-label">Email</label>
+                <div class="">
+                    <input type="email" [ngClass]="{'error' : fg.get('email').errors}" autocomplete="off" class="form-control" id="email" formControlName="email">
+                    <small class="text-danger" *ngIf="fg.get('email')?.errors?.email">Please Enter a Valid Email</small>
+                    <p class="small mb-0 text-danger" *ngIf="fg.get('email').errors?.required && submitted">Email Is Required</p>
+                </div>
+            </div>  
+            <div class="row mb-5">
+                <label for="password" class="col-sm-2 col-form-label">Password</label>
+                <div class="">
+                    <input type="password" [ngClass]="{'error' : fg.get('password').errors}" class="form-control" id="password"
+                        formControlName="password">
+                    <small class="text-danger" *ngIf="fg.get('password')?.errors?.minlength">Please Enter at least 3 charecters</small>
+                    <p class="small mb-0 text-danger" *ngIf="fg.get('password').errors?.required && submitted">Password Is Required</p>
+                </div>
+            </div>
+            <button type="submit" class="btn bg-orange text-light w-100">
+                <span *ngIf="!loading">Login</span>
+                <div class="spinner-border text-light" *ngIf="loading" role="status">
+                </div>
+            </button>
+        </form>
+    </div>
+</section> 

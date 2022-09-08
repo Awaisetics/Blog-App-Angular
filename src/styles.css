@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1B2430;
+}
+
+.banner {
+    background-image: url("./assets/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90.8vh;
+    color: white;
+}
+
+.text-orange{
+    color: #ff6219;
+}
+
+.bg-orange{
+    background-color: #ff6219;
+}

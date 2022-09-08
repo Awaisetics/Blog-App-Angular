@@ -1,0 +1,9 @@
+input.error:focus {
+    border-color: red;
+    box-shadow: 0 0 0 .25rem rgba(179, 26, 26, 0.215);
+}
+
+.bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+}

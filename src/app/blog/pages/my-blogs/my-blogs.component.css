@@ -1,0 +1,21 @@
+small{
+    font-size: 0.77rem;
+}
+
+.bi-trash:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.bi-pencil:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.card-body > p {
+    height: 6rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
